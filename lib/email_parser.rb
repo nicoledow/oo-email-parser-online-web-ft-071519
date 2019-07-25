@@ -12,20 +12,3 @@
 # parser.parse
 # # => ["john@doe.com", "person@somewhere.org"]
 
-class EmailParser
-  attr_accessor :emails
-  
-  # def initialize(emails)
-  #   @emails = emails
-  # end
-  
-  def parse(parser)
-    parser.split(/[\s,]+/)
-    #binding.pry
-  end
-  
-end
-
-test_parser = EmailParser.new(test_emails)
-test_emails = john@doe.com, person@somewhere.org"
-test_parser.parse
