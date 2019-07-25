@@ -13,7 +13,7 @@
 # # => ["john@doe.com", "person@somewhere.org"]
 
 class EmailParser
-  attr_accessor :emails
+  attr_reader :emails
   
   def initialize(emails)
     @emails = emails
