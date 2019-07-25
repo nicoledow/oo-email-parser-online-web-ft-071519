@@ -12,3 +12,7 @@ require 'pry'
 # parser.parse
 # # => ["john@doe.com", "person@somewhere.org"]
 
+class EmailParser
+  
+  
+end
