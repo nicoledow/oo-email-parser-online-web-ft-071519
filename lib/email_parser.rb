@@ -13,6 +13,6 @@ require 'pry'
 # # => ["john@doe.com", "person@somewhere.org"]
 
 class EmailParser
-  
+  attr_accessor :emails
   
 end
